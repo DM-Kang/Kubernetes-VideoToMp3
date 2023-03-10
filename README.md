@@ -1,5 +1,5 @@
 # Kubernetes-VideoToMp3
-This is a VideoToMp3 converter service using microservice architectures implemented by docker and kubernetes, MongoDB and RabbitMQ.
+This is a VideoToMp3 converter service based on the microservice architectures implemented by Docker, Kubernetes, Flask, MongoDB and RabbitMQ.
 
 * Prerequisites
 > * Python 3
