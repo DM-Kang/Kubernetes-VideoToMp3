@@ -1,6 +1,9 @@
 # RabbitMQ Service
 This is RabbitMQ Service.
 
+* Running minikube tunnel
+> (In another terminal) minikube tunnel
+
 * Applying pods to Kubernetes
 > kubectl apply -f ./
 
