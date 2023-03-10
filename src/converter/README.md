@@ -17,7 +17,7 @@ This is a Converter Service.
 > docker build .
 
 * Tagging docker container
-> docker tag <Sha256 text for the built image> <Your Docker Hub Account/converter:latest>
+> docker tag "SHA256 text for the built image" "Your Docker Hub Account/converter:latest"
 
 * Applying pods to Kubernetes
 > kubectl apply -f ./

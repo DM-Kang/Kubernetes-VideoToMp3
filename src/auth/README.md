@@ -12,11 +12,14 @@ This is a Authorization Service.
 * Creating requirements.txt
 > pip3 freeze > requirements.txt
 
-* Building docker container
+* Building a docker container
 > docker build .
 
-* Tagging docker container
-> docker tag <Sha256 text for the built image> <Your Docker Hub Account/converter:latest>
+* Tagging the docker container
+> docker tag "SHA256 text for the built image" "Your Docker Hub Account/auth:latest"
+
+* Pushing the docker container
+> docker push "Your Docker Hub Account/auth:latest"
 
 * Applying pods to Kubernetes
 > kubectl apply -f ./
@@ -25,4 +28,4 @@ This is a Authorization Service.
 > kubectl delete -f ./
 
 * Scaling the number of pods
-> kubectl scale deployment --replicas=1 converter
+> kubectl scale deployment --replicas=1 auth

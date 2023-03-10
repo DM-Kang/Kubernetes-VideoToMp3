@@ -15,8 +15,11 @@ This is Gateway Service.
 * Building docker container
 > docker build .
 
-* Tagging docker container
-> docker tag <Sha256 text for the built image> <Your Docker Hub Account/gateway:latest>
+* Tagging the docker container
+> docker tag "SHA256 text for the built image" "Your Docker Hub Account/gateway:latest"
+
+* Pushing the docker container
+> docker push "Your Docker Hub Account/gateway:latest"
 
 * Applying pods to Kubernetes
 > kubectl apply -f ./
