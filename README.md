@@ -7,11 +7,11 @@ This is a VideoToMp3 converter service based on the microservice architectures i
 > 
 >   - https://www.python.org/downloads/
 > 
-> * Installing Docker
+> * Docker
 > 
 >   - https://www.docker.com/
 > 
-> * Installing Kubernetes
+> * Kubernetes
 > 
 >   - https://kubernetes.io/docs/setup/
 > 
