@@ -1,13 +1,11 @@
 # RabbitMQ Service
 This is RabbitMQ Service.
 
-<<<<<<< HEAD
 * Add the record below to /etc/hosts
 > 127.0.0.1   rabbitmq-manager.com
-=======
+
 * Running minikube tunnel (Open a new terminal tap)
 > minikube tunnel
->>>>>>> main
 
 * Applying pods to Kubernetes
 > kubectl apply -f ./
