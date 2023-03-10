@@ -1,6 +1,13 @@
 # Authorization Service
 This is a Authorization Service.
 
+* Creating a MySQL database for storing data for authentication
+> mysql -uroot < init.sql
+
+* Dropping the database
+> mysql -uroot -e "DROP DATABASE auth"
+> mysql -uroot -e "DROP USER auth_user@localhost"
+
 * Creating Virtual Environment
 > python3 -m venv venv
 > 

@@ -1,6 +1,9 @@
 # RabbitMQ Service
 This is RabbitMQ Service.
 
+* Add the record below to /etc/hosts
+> 127.0.0.1   rabbitmq-manager.com
+
 * Applying pods to Kubernetes
 > kubectl apply -f ./
 
