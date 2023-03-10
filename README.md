@@ -5,20 +5,20 @@ This is a VideoToMp3 converter service based on the microservice architectures i
 >
 > * Python 3
 > 
-> https://www.python.org/downloads/
+>   - https://www.python.org/downloads/
 > 
 > * Installing Docker
 > 
-> https://www.docker.com/
+>   - https://www.docker.com/
 > 
 > * Installing Kubernetes
 > 
-> https://kubernetes.io/docs/setup/
+>   - https://kubernetes.io/docs/setup/
 > 
 > * k9s (A CLI based Visualization Tool for Kubernetes)
 > 
-> https://github.com/derailed/k9s
+>   - https://github.com/derailed/k9s
 > 
 > * Minikube
 > 
-> https://minikube.sigs.k8s.io/docs/start/
+>   - https://minikube.sigs.k8s.io/docs/start/
